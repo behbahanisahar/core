@@ -1,0 +1,50 @@
+{
+  "name": "dkg-core-components",
+  "version": "2.0.6",
+  "description": "A dummy counter component",
+  "author": "behbahanisahar",
+  "license": "Apache-2.0",
+  "repository": "behbahanisahar/core/dkg-core-components",
+  "main": "dist/index.js",
+  "engines": {
+    "node": ">=8",
+    "npm": ">=5"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "start": "rollup -c -w"
+  },
+  "dependencies": {
+    "rollup-plugin-multi-input": "^1.2.0",
+    "react-scripts": "4.0.1"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@jackwilsdon/craco-use-babelrc": "^1.0.0",
+    "@pmmmwh/react-refresh-webpack-plugin": "^0.4.3",
+    "@rollup/plugin-node-resolve": "^11.2.1",
+    "@types/react": "^16.3.13",
+    "@types/react-dom": "^16.0.5",
+    "babel-core": "^6.26.3",
+    "babel-runtime": "^6.26.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-refresh": "^0.10.0",
+    "rollup": "^1.29.0",
+    "rollup-plugin-sass": "^1.2.2",
+    "rollup-plugin-typescript2": "^0.25.3",
+    "type-fest": "^1.0.1",
+    "typescript": "^2.8.3"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "typescript",
+    "npm"
+  ]
+}
